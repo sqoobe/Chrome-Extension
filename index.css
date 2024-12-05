@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
 }
 
 
@@ -20,4 +21,22 @@ button {
     padding: 10px 20px;
     /* border: none; */
     font-weight: bold;
+}
+
+#delete-btn {
+    background: white;
+    color: #2d7b00;
+}
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+li a {
+    color: #2d7b00;
 }
